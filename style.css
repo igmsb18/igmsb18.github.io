@@ -10,16 +10,13 @@ body {
   margin: 60px auto;
 }
 
+/* Header */
 header h1 {
   font-size: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.subtitle {
-  color: #666;
-  margin-bottom: 20px;
-}
-
+/* Navigation */
 nav {
   margin-bottom: 30px;
 }
@@ -35,22 +32,63 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* About layout */
 .about {
   display: flex;
-  gap: 20px;
-  align-items: flex-start;
+  gap: 40px;
 }
 
+.left {
+  width: 220px;
+}
+
+.right {
+  flex: 1;
+}
+
+/* Profile image */
 .profile {
-  width: 150px;
-  border-radius: 5px;
+  width: 180px;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
+/* Info text */
+.info {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Links with icons */
+.links a {
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 14px;
+}
+
+.links i {
+  margin-right: 8px;
+  width: 16px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
 h2 {
-  margin-top: 40px;
+  margin-top: 50px;
   font-size: 24px;
 }
 
-ul {
+/* Publications */
+.pubs {
   padding-left: 20px;
+}
+
+.pubs li {
+  margin-bottom: 12px;
 }
