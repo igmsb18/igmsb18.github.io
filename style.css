@@ -64,6 +64,17 @@ nav a:hover {
   margin-bottom: 12px;
 }
 
+.location {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.location i {
+  font-size: 12px;
+  color: #888;
+}
+
 /* Links */
 .links {
   margin-top: 8px;
