@@ -2,7 +2,12 @@
 <html>
 <head>
   <title>Irene García Muñoz</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -10,29 +15,66 @@
 
     <header>
       <h1>Irene García Muñoz</h1>
-      <p class="subtitle">PhD Student · University of Manchester · Epidemiology</p>
     </header>
 
     <nav>
       <a href="index.html">About</a>
-      <a href="research.html">Research</a>
+      <a href="#publications">Publications</a>
       <a href="cv.html">CV</a>
     </nav>
 
     <section class="about">
-      <img src="profile.jpg" alt="Profile photo" class="profile">
 
-      <div>
+      <!-- LEFT COLUMN -->
+      <div class="left">
+        <img src="profile.jpg" alt="Profile photo" class="profile">
+
+        <p class="info">
+          PhD Student<br>
+          University of Manchester<br>
+          Epidemiology
+        </p>
+
+        <div class="links">
+          <a href="mailto:your@email.com"><i class="fas fa-envelope"></i> Email</a>
+          <a href="#"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+          <a href="#"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="right">
         <p>
-          I am a student interested in Statistics.
+          I am a PhD student in Epidemiology at the University of Manchester.
+          My research focuses on [add your topic here].
         </p>
 
         <p>
-          background, goals, or current work.
+          You can briefly describe your academic interests, background,
+          and current work here.
         </p>
       </div>
+
     </section>
 
-    </div>
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2>Publications</h2>
+
+      <ul class="pubs">
+        <li>
+          <b>Your Name</b>, Co-author. (2026). 
+          <i>Title of your paper</i>. Journal Name.
+        </li>
+
+        <li>
+          <b>Your Name</b>. (2025). 
+          <i>Another paper title</i>. Conference/Journal.
+        </li>
+      </ul>
+    </section>
+
+  </div>
 </body>
 </html>
