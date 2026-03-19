@@ -60,22 +60,39 @@ nav a:hover {
   margin-bottom: 15px;
 }
 
-/* Links with icons */
+.links {
+  margin-top: 10px;
+}
+
+/* Each link row */
 .links a {
-  display: block;
-  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
   text-decoration: none;
-  color: #0366d6;
-  font-size: 14px;
+  color: #444;
+  font-size: 13px;
+
+  margin-bottom: 6px;
 }
 
+/* Icons */
 .links i {
-  margin-right: 8px;
-  width: 16px;
+  width: 14px;
+  text-align: center;
+  color: #777;
+  font-size: 13px;
 }
 
+/* Text */
+.links span {
+  line-height: 1.2;
+}
+
+/* Hover effect (very subtle like Joe's) */
 .links a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 /* Sections */
