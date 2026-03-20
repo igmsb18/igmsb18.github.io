@@ -120,3 +120,18 @@ h2 {
   font-size: 14px;
   line-height: 1.5;
 }
+
+.pub-links {
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.pub-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.pub-links a:hover {
+  color: #000;
+}
